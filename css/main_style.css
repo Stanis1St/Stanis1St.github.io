@@ -59,13 +59,33 @@ ul {
  .menu__image{
    margin-right: 1em;
  }
- .menu__link{
+  .menu__link{
    color: rgb(75, 115, 181);
    display:flex;
  }
- .menu__link:hover{
-   color:black;
- }
+ 
+   .menu__link:hover{
+     color:black;
+   }
+  /* .menu__link {
+     color: rgb(75, 115, 181);
+     font-size: 12px;
+     text-transform: uppercase;
+     text-decoration: none;
+     font-weight: bold;
+     letter-spacing: 2px;
+    }
+/*  .menu__link:before {
+  content: ""
+  width: 24px;
+  height: 18px;
+  background: url('/img/main_icon.png') center center no-repeat;
+ 
+  vertical-align: middle;
+  margin-right: 5px;
+
+}*/
+
  .menu-text{
    letter-spacing: 2px;
   font-size: 12px;
@@ -150,6 +170,9 @@ align-content: center;
  .price-font{
    display: inline;
    font-size: 50px;
+ }
+ .dollar{
+  font-size: 25px;
  }
  
  .main-content-news{
@@ -251,6 +274,7 @@ footer{
   font-family: "Roboto Light";
   color: rgb(255, 255, 255);
 }
+
 .authors__loftschool{
   color: rgb(255, 255, 255);
   text-decoration-line: underline;
@@ -273,13 +297,15 @@ footer{
  justify-content: space-between;
 }
 .social__item{
-
-
+  display:flex;
+  justify-content: center;
 border-radius: 50%;
-
   width: 20px;
   height: 20px;
 background-color:#d2def3;
+}
+.social__img{
+ align-items: center;
 }
 .social__item:hover{
   background-color:white;
