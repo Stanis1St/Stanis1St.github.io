@@ -257,14 +257,17 @@ align-content: center;
 footer{
   background-color: rgb(75, 115, 181);
 }
-.footer-wrap{
-  display: flex;
+.footer-container{
   width: 1100px;
-  justify-content: space-between;
-  align-items: center;
   margin: 0 auto;
 }
-.copyright{
+.footer__row{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0;
+}
+.footer__copyright{
   width:20%;
   font-size: 14px;
   font-family: "Roboto Light";
@@ -275,10 +278,10 @@ footer{
   color: rgb(255, 255, 255);
   text-decoration-line: underline;
 }
-.footer-logo{
+.footer__logo{
 
 }
-.social{
+.footer__social{
   display: flex;
   flex-direction: column;
 }
