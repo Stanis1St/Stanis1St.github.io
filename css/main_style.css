@@ -59,35 +59,54 @@ ul {
   list-style: none;
 }
 .aside{
-  margin-top: 18px;
+  
 }
 .menu{
   width:200px;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+ margin-right: 25px;
 }
  .menu__item{ 
-  
- }
- .menu__image{
-   margin-right: 1em;
- }
-  .menu__link{
-   color: rgb(75, 115, 181);
-   display:flex;
+  margin-top: 29px;
  }
  
+  .menu__link{
+   color: rgb(75, 115, 181);
+   text-transform:uppercase;
+  font-weight:bold;
+  letter-spacing:2px;
+  font-size: 12px;
+ }
+ .menu__link::before{
+  content:"";
+  width:25px;
+  height:20px;
+  background:url('/img/main_iconblue.png')center center  no-repeat ;
+  display:inline-block;
+  vertical-align:middle;
+  margin-right:12px;
+}
    .menu__link:hover{
      color:black;
    }
-
-
- .menu__text{
-   letter-spacing: 2px;
-  font-size: 12px;
-  font-family: "Roboto";        
-  color: rgb(34, 31, 31);
-  font-weight: bold;
-  text-transform: uppercase;
- }
+   .menu__link:hover::before{
+    background:url('/img/main_icon.png') no-repeat ;  
+  }
+.menu__link_feed::before{
+  background:url('/img/feed_icon.png') center center  no-repeat ;  
+}
+.menu__link_feed:hover:before{
+  background:url('/img/feed_iconblack.png')   no-repeat ;  
+}
+.menu__link_team::before{
+  background:url('/img/team_icon.png') center center  no-repeat ;  
+}
+.menu__link_team:hover:before{
+  background:url('/img/team_iconblack.png')  no-repeat ;  
+}
+ 
  .airplane_img{
    display:flex;       
  }
