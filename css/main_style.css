@@ -1,4 +1,6 @@
 body{
+  margin :0;
+  padding: 0;
   font-family: 'Roboto','Hevetica', sans-serif;
   height: 100%;
   -webkit-font-smoothing: antialiased;
@@ -8,14 +10,18 @@ body{
   background-color: rgb(75, 115, 181);
 }
 h1, h2, h3, h4, h5, h6 {
+  font-size:1em;
   margin: 0;
+}
+.wrape{
+  
 }
 .content-wrap{
   display: flex;
-  width: 1100px;
-  margin: 0 auto;
+  margin-top: 15px;
+ 
 }
-.header__container {
+.container {
   width: 1100px;
   margin: 0 auto;
 }
@@ -52,8 +58,14 @@ ul {
   padding: 0;
   list-style: none;
 }
+.aside{
+  margin-top: 18px;
+}
+.menu{
+  width:200px;
+}
  .menu__item{ 
-  padding:1em; 
+  
  }
  .menu__image{
    margin-right: 1em;
@@ -66,26 +78,9 @@ ul {
    .menu__link:hover{
      color:black;
    }
-  /* .menu__link {
-     color: rgb(75, 115, 181);
-     font-size: 12px;
-     text-transform: uppercase;
-     text-decoration: none;
-     font-weight: bold;
-     letter-spacing: 2px;
-    }
-/*  .menu__link:before {
-  content: ""
-  width: 24px;
-  height: 18px;
-  background: url('/img/main_icon.png') center center no-repeat;
- 
-  vertical-align: middle;
-  margin-right: 5px;
 
-}*/
 
- .menu-text{
+ .menu__text{
    letter-spacing: 2px;
   font-size: 12px;
   font-family: "Roboto";        
@@ -96,25 +91,37 @@ ul {
  .airplane_img{
    display:flex;       
  }
- 
- .rate-body-wrap{
-   display:flex;  
-   flex-direction: column;
- }
  .title{
-   font-size: 50px;
+   font-size: 49px;
    font-weight: bold;
  }
- .rates-list{
-   display: flex;
-   
+ .rates{
+   margin-top: 5px;
+ }
+ 
+ .rates__list{
+   margin-left:10px;
+   margin-top: 55px;
+   display:flex;
+   justify-content: flex-start;
+  
+ }
+ .rates__item{
+   padding-right: 29px;
+  
+  
  }
  .rate{
-  padding: 1em;
-  display:flex;
+   
+   margin-top: 13px ;
+   width:240px;
+  display:inline-flex;
+  flex-direction:column;
   align-items: center;
-  flex-direction: column;
+  
+
  }
+
  .rate__logo1{
   width: 70px;
 height: 70px;
@@ -137,80 +144,94 @@ background: url('/img/painter-palette.png') center no-repeat  rgb(75, 115, 181);
 align-content: center;   
  }
  .rate__name{
-   margin:auto;
-   padding :2em 2em 0em 2em;
-   font-size: 12px;
+   margin-top: 30px;
+  letter-spacing: 2px;
+   font-size: 11px;
    font-weight: bold;          
    text-transform: uppercase; 
   color: rgb(33, 33, 33);
-  text-align: center;
  }
  .rate__inform{
-  text-align: center;
-  font-size: 20px;
+  margin-top: 20px;
+   text-align: center;
+  font-size: 18px;
   font-family: "Roboto Light";
+  line-height:30px;
   color: rgb(34, 31, 31);
  }
 .rate__list{
- 
-  font-size: 20px;
+  
+  margin-left: 12px;
+  font-size: 18px;
   font-family: "Roboto Light";
   color: rgb(34, 31, 31);
+  list-style-type: disc;
 }
-.rate__inform-margin{
-  margin-bottom: 0;
+.rate__item{
+  margin-top:10px;
+}
+.rate__item:last-child{
+  margin-top:13px;
 }
  .rate__price{
-  font-size: 17.76px;
+   margin-top:23px;
+  font-size: 18px;
   font-family: "Roboto Regular";
   color: rgb(32, 32, 32);
   text-align: center; 
+  font-weight: bold; 
  }
+ 
  .price-font{
    display: inline;
-   font-size: 50px;
+   font-size: 54px;
  }
  .dollar{
   font-size: 25px;
  }
- 
- .main-content-news{
-   margin-top: 70px;
- }
- .news__title{
-  font-size: 50px;
-  font-weight: bold;
- }
  .news{
-  display: flex;
-  width:80%;
-  font-size: 18px;
-  font-family: "Roboto Light";
+   margin-top: 85px;
  }
-
- .news__data{
-  font-size: 14px;
-  font-family: "Roboto Light";
- }
- .news__wrape-content{
+ .news__list{
+  margin-top: 16px;
    display:flex;
    flex-direction: column;
-   margin-top: 1em;
-   
+
  }
- .news__preview{
+ .news__item{
+   margin-top:49px;
+ }
+
+ .new{
+   display:flex;
+ }
+ 
+.new__preview{
+  margin-right: 20px;
+}
+.new__wrape{
   display:flex;
-  flex-direction: column;
-  justify-content:  center;
-  margin-right: 1em;
- }
- .news__name{
+  flex-direction: column; 
+}
+.new__data{
+  font-size:14px;
+  font-family: "Roboto Light"
+}
+.new__name{
+  margin-top:5px;
+  letter-spacing: 1px;
+}
+.new__content{
+  text-align: left;
+ margin-top:11px;
   font-size: 18px;
- }
- .news__content{
-  font-size: 18px;
- }
+  color: rgb(101, 100, 100);
+  line-height: 30px;
+  word-spacing:0px;
+}
+ 
  .news__pagination{
+   margin-top:33px;
   display:flex; 
   justify-content: center;
  }
@@ -236,6 +257,7 @@ align-content: center;
    color:rgb(75, 115, 181);
  }
  .news__pagination-display{
+   margin-left:-27px;
   display:flex;
   align-items: center;                  /* текст страница из*/
   justify-content: center;
@@ -255,23 +277,21 @@ align-content: center;
   color:rgb(75, 115, 181);
 }
 footer{
+  margin-top:38px;
   background-color: rgb(75, 115, 181);
-}
-.footer-container{
-  width: 1100px;
-  margin: 0 auto;
 }
 .footer__row{
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  padding: 15px 0;
+  align-items: flex-start;
+  padding: 20px 0;
 }
 .footer__copyright{
   width:20%;
   font-size: 14px;
   font-family: "Roboto Light";
   color: rgb(255, 255, 255);
+  text-align: left;
 }
 
 .authors__loftschool{
@@ -286,7 +306,9 @@ footer{
   flex-direction: column;
 }
 .social__title{
+  font-size:14px;
   color: rgb(255, 255, 255);
+  font-weight: bold;
 }
 .social__logo{
   display: flex;
