@@ -1,0 +1,55 @@
+footer{
+    margin-top:38px;
+    background-color: rgb(75, 115, 181);
+  }
+  .footer__row{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px 0;
+  }
+  .footer__copyright{
+    width:20%;
+    font-size: 14px;
+    font-family: "Roboto Light";
+    color: rgb(255, 255, 255);
+    text-align: left;
+  }
+  .authors__loftschool{
+    color: rgb(255, 255, 255);
+    text-decoration-line: underline;
+  }
+  .footer__logo{
+  
+  }
+  .footer__social{
+    display: flex;
+    flex-direction: column;
+  }
+  .social__title{
+    font-size:14px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+  }
+  .social__logo{
+    display: flex;
+  }
+  .social__list{
+   display: flex;
+   justify-content: space-between;
+  }
+  .social__item{
+    display:flex;
+    justify-content: center;
+  border-radius: 50%;
+    width: 20px;
+    height: 20px;
+  background-color:#d2def3;
+  }
+  .social__img{
+   align-items: center;
+  }
+  .social__item:hover{
+    background-color:white;
+  }
+  

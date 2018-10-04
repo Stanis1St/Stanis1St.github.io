@@ -1,0 +1,10 @@
+.header{
+    background-color: rgb(75, 115, 181);
+  }
+  
+.header__row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+  }

@@ -1,0 +1,46 @@
+.menu{
+    width:200px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+   margin-right: 30px;
+   margin-top:2px;
+  }
+   .menu__item{ 
+    margin-top: 28px;
+   }
+   
+    .menu__link{
+     color: rgb(75, 115, 181);
+     text-transform:uppercase;
+    font-weight:bold;
+    letter-spacing:2px;
+    font-size: 12px;
+   }
+   .menu__link::before{
+    content:"";
+    width:25px;
+    height:20px;
+    background:url('/img/main_iconblue.png')center center  no-repeat ;
+    display:inline-block;
+    vertical-align:middle;
+    margin-right:12px;
+  }
+     .menu__link:hover{
+       color:black;
+     }
+     .menu__link:hover::before{
+      background-image:url('/img/main_icon.png') ;  
+    }
+  .menu__link_feed::before{
+    background-image:url('/img/feed_icon.png') ;  
+  }
+  .menu__link_feed:hover:before{
+    background:url('/img/feed_iconblack.png')  ;  
+  }
+  .menu__link_team::before{
+    background-image:url('/img/team_icon.png')  ;  
+  }
+  .menu__link_team:hover:before{
+    background-image:url('/img/team_iconblack.png') ;  
+  }

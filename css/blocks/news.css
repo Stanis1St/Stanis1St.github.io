@@ -1,0 +1,119 @@
+.title{
+    font-size: 49px;
+    font-weight: bold;
+  }
+.news{
+    margin-top: 85px;
+  }
+  .news__list{
+   margin-top: 16px;
+    display:flex;
+    flex-direction: column;
+  }
+  .news__item{
+    margin-top:49px;
+  }
+  .new{
+    display:flex;
+  }
+  .new1-img{
+   
+   display:block;
+   max-width: 160px;
+   max-height: 160px;
+   border-radius:50%;
+  }
+  .new2-img{
+   display:block;
+   max-width: 160px;
+   max-height: 160px;
+   border-radius:50%;
+  }
+  .new3-img{
+   display:block;
+   max-width: 160px;
+   max-height: 160px;
+   border-radius:50%;
+   overflow: hidden;
+  }
+ 
+ .new__preview{
+ 
+ }
+ .new__wrape{
+   display:flex;
+   flex-direction: column; 
+ }
+ .new__data{
+   font-size:14px;
+   font-family: "Roboto Light"
+ }
+ .new__name{
+   margin-top:5px;
+   letter-spacing: 1px;
+ }
+ .new__content{
+   text-align: left;
+  margin-top:11px;
+   font-size: 18px;
+   color: rgb(101, 100, 100);
+   line-height: 30px;
+   word-spacing:0px;
+ }
+  .news__pagination{
+    margin-top:33px;
+   display:flex; 
+   justify-content: center;
+   margin-left:33px;
+  }
+  .news__paginations-page-wrap{
+   display:flex;
+   align-items: center;
+   justify-content: center;   /*Обертка для пагинации */
+   margin:1em;
+ 
+  }
+ .news__pagination-pages{
+   padding: 0em;              
+   display: inline-flex;
+   margin-right: 10px;
+ }
+  .news__pagination-prev-next
+  {
+    color:black;
+    font-weight: bold;
+     display:inline-flex;
+     align-items: center;
+     margin-right:14px;
+  }
+  
+  .news__pagination-item_firstpage {
+   width:10px;
+    height:10px;
+    background: rgb(75, 115, 181);
+    vertical-align:bottom;
+  }
+ 
+  .news__pagination-prev-next:hover{
+    color:rgb(75, 115, 181);
+  }
+  .news__pagination-display{
+    margin-left:-27px;
+   display:flex;
+   align-items: center;                  /* текст страница из*/
+   justify-content: center;
+   font-size: 14px;
+   color: rgb(101, 100, 100);
+ 
+  }
+ .news__pagination-item{
+   padding: 0.5em;            /* Страницы пагинации */
+   list-style-type: none;       
+ }
+ .news__pagination-link{
+   font-weight: bold;
+   color:black;             /* Страницы пагинации ,ссылки*/
+ }
+ .news__pagination-link:hover{
+   color:rgb(75, 115, 181);
+ }

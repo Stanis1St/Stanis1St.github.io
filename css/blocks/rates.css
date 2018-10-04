@@ -1,0 +1,99 @@
+.rates{
+    margin-top: 5px;
+  }
+  
+  .title{
+    font-size: 49px;
+    font-weight: bold;
+  }
+  .rates__list{
+    margin-left:10px;
+    margin-top: 55px;
+    display:flex;
+    justify-content: flex-start; 
+ 
+  }
+  .rates__item{
+    padding-right: 29px; 
+    
+  }
+  
+  .rate{  
+    margin-top: 13px ;
+    width:240px;
+   display:inline-flex;
+   flex-direction:column;
+   align-items: center;
+  }
+  .rate__logo1{
+   width: 70px;
+ height: 70px;
+ border-radius: 50%;
+ background: url('/img/flower.png') center no-repeat  rgb(75, 115, 181);
+ align-content: center;   
+  }
+  .rate__logo2{
+   width: 70px;
+ height: 70px;
+ border-radius: 50%;
+ background: url('/img/star.png') center no-repeat  rgb(75, 115, 181);
+ align-content: center;   
+  }
+  .rate__logo3{
+   width: 70px;
+ height: 70px;
+ border-radius: 50%;
+ background: url('/img/painter-palette.png') center no-repeat  rgb(75, 115, 181);
+ align-content: center;   
+  }
+  .rate__name{
+    margin-top: 30px;
+   letter-spacing: 2px;
+    font-size: 11px;
+    font-weight: bold;          
+    text-transform: uppercase; 
+   color: rgb(33, 33, 33);
+  }
+  .rate__inform{
+   margin-top: 20px;
+    text-align: center;
+   font-size: 18px;
+   font-family: "Roboto Light";
+   line-height:30px;
+   color: rgb(34, 31, 31);
+  }
+ .rate__list{
+ 
+   font-size: 18px;
+   font-family: "Roboto Light";
+   color: rgb(34, 31, 31);
+   list-style-type: none;
+ }
+ .rate__item{
+   margin-top:10px;
+ 
+ }
+ .rate__item:before{
+  content:"•";
+  margin-right:20px;
+ }
+ .rate__item:last-child{
+   margin-top:13px;
+ }
+  .rate__price{
+    margin-top:23px;
+   font-size: 18px;
+   font-family: "Roboto Regular";
+   font-weight: bold;
+   color: rgb(32, 32, 32);
+   text-align: center; 
+   
+  }
+  .price-font{
+    display: inline;
+    font-size: 54px;
+    
+  }
+  .dollar{
+   font-size: 25px;
+  }
