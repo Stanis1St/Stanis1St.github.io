@@ -37,7 +37,7 @@
     background-image:url('/img/feed_icon.png') ;  
   }
   .menu__link_feed:hover:before{
-    background:url('/img/feed_iconblack.png')  ;  
+    background:url('/img/feed_iconblack.png') no-repeat ;  
   }
   .menu__link_team::before{
     background-image:url('/img/team_icon.png')  ;  

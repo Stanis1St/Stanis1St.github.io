@@ -63,5 +63,6 @@ footer{
   }*/
   .social__item:hover{
     background-color:white;
+    transform: scale(1.2);
   }
   
