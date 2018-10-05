@@ -1,0 +1,46 @@
+.feedback{
+
+    width: 700px;
+    margin: 0 auto;
+    margin-top:60px;
+}
+.title_feedback{
+    font-size: 49px;
+}
+.feedback__content {
+    background-color: rgb(241, 241, 241);
+    padding: 50px 70px;
+  }
+  .form__row {
+      margin-top:30px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  .form__col {
+    width: 270px;
+  }
+  .form__label {
+    display: block;
+    padding-bottom: 10px;
+  }
+  .form__input {
+    width: 100%;
+    background-color: #fff;
+    border-radius: 2px;
+    padding: 10px;
+    border: 1px solid transparent;
+  }
+  .form__textarea {
+    width: 100%;
+  }
+  .form__radios {
+    display: flex;
+  }
+  
+  .form__radio {
+    display: flex;
+    margin-right: 20px;
+    position: relative;
+  }
+  

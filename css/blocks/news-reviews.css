@@ -13,16 +13,18 @@
     margin-top: 20px;
   }
   .news__list{
-   margin-top: 20px;
+   margin-top: 45px;
     display:flex;
     flex-direction: column;
   }
+  .news__list_review{
+    margin-top:7px;
+  }
   .news__item{
-    margin-top:51px;
+   padding:25px 0;
   }
   .news__item_review{
-    margin-top:18px;
-
+    padding : 30px 0;
   }
   .new{
     display:flex;
@@ -59,13 +61,14 @@
    word-spacing:0px;
  }
   .news__pagination{
-    margin-top:23px;
+    margin-top:10px;
    display:flex; 
    justify-content: center;
-   margin-left:-70px;
+   margin-left:30px;
   }
   .news__pagination_review{
-
+  margin-top:0px;
+  margin-left:-40px;
   }
   .news__paginations-page-wrap{
    display:flex;
@@ -88,7 +91,6 @@
      align-items: center;
      margin-right:14px;
   }
-  
   .news__pagination-item_firstpage {
     background:  rgb(75, 115, 181);
     border-radius: 3px;
