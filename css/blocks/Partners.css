@@ -1,0 +1,16 @@
+.partner__list{
+    display:flex;
+    flex-wrap: wrap;
+}
+.partners__item{
+    flex:1,1,200px;
+}
+.partner__link{
+    display:flex;
+}
+.partner__logo{
+    width:220px;
+    height: 90px;
+    display:flex;
+
+}

@@ -1,10 +1,8 @@
-.title_news{
+.title{
     font-size: 49px;
     font-weight: bold;
   }
-  .title_review{
-    font-size: 49px;
-  }
+  
   
 .news{
     margin-top: 85px;
@@ -38,6 +36,10 @@
    height: 160px;
    border-radius:50%;
    overflow: hidden;
+  }
+  .new1, .new2, .new3{
+    max-width: 160px;
+    max-height: 160px;
   }
  .new__wrape{
    display:flex;
@@ -102,7 +104,7 @@
   }
 
   .news__pagination-prev-next:hover{
-    color:rgb(75, 115, 181);
+    color:rgb(182, 206, 245);
   }
   .news__pagination-display{
     margin-left:-27px;

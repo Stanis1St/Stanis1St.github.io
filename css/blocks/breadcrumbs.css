@@ -25,7 +25,9 @@
   .breadcrumbs__item_reviews .breadcrumbs__link{
       color:black;
   }
- 
+  .breadcrumbs__item_team .breadcrumbs__link{
+    color:black;
+  }
 
   .breadcrumbs__item:first-child:before {
     display: none;
