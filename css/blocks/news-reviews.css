@@ -3,7 +3,6 @@
     font-weight: bold;
   }
   
-  
 .news{
     margin-top: 85px;
   }
@@ -124,5 +123,5 @@
    color:black;             /* Страницы пагинации ,ссылки*/
  }
  .news__pagination-link:hover{
-  color:rgb(75, 115, 181);
+  color:black;
  }
