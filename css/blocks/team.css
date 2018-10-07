@@ -3,13 +3,13 @@
     margin-top: 2%;
 }
 .team__list {
-    
+   margin-top: 1%; 
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
   }
   .team__item {
-    margin-top: 2%;
+    margin-top: 1%;
     width: 33%;
     margin-bottom: 40px;
 }
@@ -60,7 +60,6 @@
       font-weight: bold;
   }
   .team-member__position{
-      
     margin-top:2%;
     font-size: 14px;
     font-weight: bold;

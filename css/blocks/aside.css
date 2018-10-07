@@ -10,7 +10,7 @@
    .menu__item{ 
     margin-top: 28px;
    }
-   
+  
     .menu__link{
      color: rgb(75, 115, 181);
      text-transform:uppercase;
@@ -27,21 +27,56 @@
     vertical-align:middle;
     margin-right:10px;
   }
-     .menu__link:hover{
-       color:black;
-     }
-     .menu__link:hover::before{
-      background-image:url('/img/main_icon.png') ;  
-    }
+  .active::before{
+    content:"";
+    width:25px;
+    height:20px;
+    background:url('/img/main_icon.png')center center  no-repeat ;
+    display:inline-block;
+    vertical-align:middle;
+    margin-right:10px;
+  
+  }
+  .active{
+    color:black;
+  }
+  .menu__link_feed-active{
+    color:black;
+  }
+  .menu__link_team-active{
+    color:black;
+  }
+  .menu__link:hover{
+    color:black;
+  }
+
+  .menu__link:hover::before{
+   background-image:url('/img/main_icon.png') ;  
+  }
+
+  .menu__link:hover:before{
+  background-image:url('/img/main_icon.png') ;  
+  }
+
   .menu__link_feed::before{
     background-image:url('/img/feed_icon.png') ;  
+  }
+
+  .menu__link_feed-active:before{
+    background:url('/img/feed_iconblack.png') no-repeat ;  
+  
   }
   .menu__link_feed:hover:before{
     background:url('/img/feed_iconblack.png') no-repeat ;  
   }
+  
   .menu__link_team::before{
     background-image:url('/img/team_icon.png')  ;  
   }
+  .menu__link_team-active:before{
+    background:url('/img/team_iconblack.png') no-repeat ;  
+  }
+
   .menu__link_team:hover:before{
     background-image:url('/img/team_iconblack.png') ;  
   }
