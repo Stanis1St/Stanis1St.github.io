@@ -4,7 +4,7 @@
   }
   
   .pattern__content {
-      font-family: "Roboto Light";
+     font-weight: 300;
     font-size: 18px;
     color: #fff;
     width: 650px;

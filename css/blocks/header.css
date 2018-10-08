@@ -11,5 +11,8 @@
     padding: 16px 0;
   }
 .header__logo{
-    margin-left:20px;
+  
+}
+.logo{
+  display:block;
 }

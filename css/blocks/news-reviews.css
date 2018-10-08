@@ -46,7 +46,7 @@
  }
  .new__data{
    font-size:14px;
-   font-family: "Roboto Light"
+  font-weight: 300;
  }
  .new__name{
    margin-top:5px;
@@ -115,7 +115,7 @@
  
   }
  .news__pagination-item{       /* Страницы пагинации */
-  padding: 7px 8px;                                
+  padding: 5px 8px;                                
    list-style-type: none;       
  }
  .news__pagination-link{
