@@ -1,0 +1,15 @@
+.contacts{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 20px;
+  }
+  .phone{
+        font-size: 21px;
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+        text-transform: uppercase; 
+        align-self:  baseline;
+  }
+  
+  

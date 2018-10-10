@@ -1,0 +1,127 @@
+.title{
+    font-size: 49px;
+    font-weight: bold;
+  }
+  
+.news{
+    margin-top: 85px;
+  }
+  .news_reviews{
+    margin-top: 20px;
+  }
+  .news__list{
+   margin-top: 45px;
+    display:flex;
+    flex-direction: column;
+  }
+  .news__list_review{
+    margin-top:7px;
+  }
+  .news__item{
+   padding:25px 0;
+  }
+  .news__item_review{
+    padding : 30px 0;
+  }
+  .new{
+    display:flex;
+  }
+  .new__preview{
+ margin-right:18px;
+  }
+  .new-img, .review{ 
+   display:block;
+   width: 160px;
+   height: 160px;
+   border-radius:50%;
+   overflow: hidden;
+  }
+  .new1, .new2, .new3{
+    max-width: 160px;
+    max-height: 160px;
+  }
+ .new__wrape{
+   display:flex;
+   flex-direction: column; 
+ }
+ .new__data{
+   font-size:14px;
+  font-weight: 300;
+ }
+ .new__name{
+   margin-top:5px;
+   letter-spacing: 1px;
+ }
+ .new__content{
+   letter-spacing: -0.2px;
+   text-align: left;
+  margin-top:11px;
+   font-size: 18px;
+   color: rgb(101, 100, 100);
+   line-height: 30px;
+   word-spacing:0px;
+ }
+  .news__pagination{
+    margin-top:10px;
+   display:flex; 
+   justify-content: center;
+   margin-left:30px;
+  }
+  .news__pagination_review{
+  margin-top:0px;
+  margin-left:-40px;
+  }
+  .news__paginations-page-wrap{
+   display:flex;
+   align-items: center;
+   justify-content: center;   /*Обертка для пагинации */
+   margin:1em;
+ 
+  }
+ .news__pagination-pages{
+   padding: 0em;              
+   display: inline-flex;
+   margin-right: 10px;
+  
+ }
+  .news__pagination-prev-next
+  {
+    color:black;
+    font-weight: bold;
+     display:inline-flex;
+     align-items: center;
+     margin-right:14px;
+  }
+  .news__pagination-item_firstpage {
+    background:  rgb(75, 115, 181);
+    border-radius: 3px;
+    
+    
+  }
+  .news__pagination-item_firstpage .news__pagination-link{
+    color:white;
+  }
+
+  .news__pagination-prev-next:hover{
+    color:rgb(182, 206, 245);
+  }
+  .news__pagination-display{
+    margin-left:-27px;
+   display:flex;
+   align-items: center;                  /* текст страница из*/
+   justify-content: center;
+   font-size: 14px;
+   color: rgb(101, 100, 100);
+ 
+  }
+ .news__pagination-item{       /* Страницы пагинации */
+  padding: 5px 8px;                                
+   list-style-type: none;       
+ }
+ .news__pagination-link{
+   font-weight: bold;
+   color:black;             /* Страницы пагинации ,ссылки*/
+ }
+ .news__pagination-link:hover{
+  color:black;
+ }

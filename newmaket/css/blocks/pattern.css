@@ -1,0 +1,31 @@
+.pattern {
+    margin-top:60px;
+    background-image: url("/img/reviews/pattern.png")
+  }
+  
+  .pattern__content {
+     font-weight: 300;
+    font-size: 18px;
+    color: #fff;
+    width: 650px;
+    margin: 0 auto;
+    padding: 50px 0;
+    line-height: 30px;
+  }
+  .pattern__link{
+    color: #fff;
+    text-decoration: underline;
+    font-weight: bold;
+  }
+  .pattern__phone{
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase; 
+    align-self:  baseline;
+  }
+  
+  .pattern__content-text {
+    font-weight: bold;
+    color: orange;
+  }

@@ -1,0 +1,31 @@
+.partners{
+    margin-top:4%;
+    margin-bottom: 7%;
+}
+
+.partners__list{
+    margin-top:-2%;
+    margin-right: 2%;
+    display:flex;
+    flex-wrap: wrap;
+  
+}
+.partners__item{
+    padding-top:7%;
+   
+    flex:1 1 240px;
+   
+}
+.partner__link{
+    display:flex;
+    justify-content: center;
+}
+.partner__logo{
+    max-width:200px;
+    max-height: 60px;
+    display:flex;
+    filter:opacity(0.7) grayscale(1);
+}
+.partner__logo:hover{
+    filter:opacity(1) grayscale(0);
+}

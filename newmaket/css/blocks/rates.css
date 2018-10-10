@@ -1,0 +1,101 @@
+.rates{
+  
+  }
+
+  .rates__list{
+    margin-top: 40px;
+    display:flex;
+    justify-content: flex-start; 
+ 
+  }
+  .rates__item{
+   
+    padding-top:40px;
+    padding-bottom: 40px;
+    padding-left:7px;
+    margin-right:21px;
+  }
+  
+  .rate{  
+    
+    width:240px;
+   display:flex;
+   flex-direction:column;
+   align-items: center;
+  }
+  
+  .rate-premium{
+    border-width: 1px;
+    border-color: rgb(232, 233, 237);
+    border-style: solid;
+    border-radius: 5px;
+ 
+  }
+  
+  .rate__logo{
+   width: 70px;
+ height: 70px;
+ border-radius: 50%;
+ background: url('/img/flower.png') center no-repeat  rgb(75, 115, 181);
+ align-content: center;   
+  }
+
+  .rate__logo-second{
+    background: url('/img/star.png') center no-repeat  rgb(75, 115, 181);
+  }
+ 
+  .rate__logo-third{
+ background: url('/img/painter-palette.png') center no-repeat  rgb(75, 115, 181); 
+  }
+  .rate__name{
+    margin-top: 30px;
+   letter-spacing: 2px;
+    font-size: 11px;
+    font-weight: bold;          
+    text-transform: uppercase; 
+   color: rgb(33, 33, 33);
+  }
+  .rate__inform{
+   margin-top: 20px;
+    text-align: center;
+   font-size: 18px;
+   font-weight: 300;
+   line-height:30px;
+   color: rgb(34, 31, 31);
+  }
+ .rate__list{
+    margin-top:10px;
+    margin-left:-10px;
+   font-size: 18px;
+  font-weight: 300;
+   color: rgb(34, 31, 31);
+   list-style-type: none;
+
+ }
+ .rate__item{
+   margin-bottom:14px;
+ 
+ }
+ .rate__item:before{
+  content:"•";
+  margin-right:21px;
+ }
+ .rate__item:last-child{
+   margin-top:13px;
+ }
+  .rate__price{
+    margin-top:14px;
+    font-weight: 400;
+   font-weight: bold;
+   color: rgb(32, 32, 32);
+   text-align: center; 
+   
+  }
+  .price-font{
+    display: inline;
+    font-size: 54px;
+    
+  }
+  .dollar{
+   font-size: 35px;
+  }
