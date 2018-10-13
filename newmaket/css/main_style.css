@@ -3,7 +3,6 @@
 @import url(/newmaket/css/layout/base.css);
 @import url(/newmaket/css/blocks/header.css);
 @import url(/newmaket/css/blocks/contacts.css);
-@import url(/newmaket/css/blocks/aside.css);
 @import url(/newmaket/css/blocks/img.css);
 @import url(/newmaket/css/blocks/rates.css);
 @import url(/newmaket/css/blocks/news.css);
@@ -16,7 +15,6 @@
 @import url(/newmaket/css/blocks/greetings.css);
 @import url(/newmaket/css/blocks/tooltip.css);
 @import url(/newmaket/css/blocks/review.css);
-
 @import url(/newmaket/css/blocks/menu.css);
 @import url(/newmaket/css/blocks/socials.css);
 /*@import url(/css/animate.css);

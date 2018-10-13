@@ -27,23 +27,20 @@
     transform:scale(1.2);
 }
 .social__link_vk{
-    background-position: -127px -62px; 
+    background-position: -410px -0px;  
 }
-.social__link_facebook{
-   
-    background-position: 0px -5px;
-
+.social__link_facebook{ 
+    background-position: 0px 0;
 }
 .social__link_google{
-    background-position: -79px 0px;
+    background-position: -115px 0;
 
 }
 .social__link_twitter{
-    background-position: -125px -42px;
+    background-position: -389px 0;
 
 }
 .social__link_mail{
-    background-position: -78px -20px;
-
-
+    background-position: -140px 0;
 }
+

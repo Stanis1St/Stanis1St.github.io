@@ -56,11 +56,5 @@
    color: rgb(101, 100, 100);
    line-height: 21px;
  }
-  .news__pagination{
-    margin-top:7px;
-   display:flex; 
-   justify-content: center;
-   margin-left:-100px;
-  }
-
+ 
   

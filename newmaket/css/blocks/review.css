@@ -66,6 +66,8 @@
    line-height: 30px;
    word-spacing:0px;
  }
+ 
+
   .news__pagination{
     margin-top:10px;
    display:flex; 
@@ -103,10 +105,7 @@
     
     
   }
-  .news__pagination-item_firstpage {
-    color:white;
-  }
-
+ 
   .news__pagination-prev-next:hover{
     color:rgb(182, 206, 245);
   }
@@ -127,10 +126,13 @@
    font-weight: bold;
    color:black;             /* Страницы пагинации ,ссылки*/
  }
+
  .news__pagination-link:hover{
    color:rgb(75, 115, 181);
  }
-
-  .news__pagination-item_firstpage:hover .news__pagination-link {
+ .news__pagination-item_firstpage .news__pagination-link{
   color:white;
+}
+  .news__pagination-item_firstpage:hover .news__pagination-link {
+  color:black;
  }

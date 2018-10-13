@@ -29,6 +29,9 @@
   .new__preview{
  margin-right:18px;
   }
+  .review__img_gray {
+    filter: grayscale(1);
+}
   .new-img, .review{ 
    display:block;
    width: 160px;
@@ -94,9 +97,7 @@
   }
   .news__pagination-item_firstpage {
     background:  rgb(75, 115, 181);
-    border-radius: 3px;
-    
-    
+    border-radius: 3px; 
   }
   .news__pagination-item_firstpage .news__pagination-link{
     color:white;
@@ -123,5 +124,6 @@
    color:black;             /* Страницы пагинации ,ссылки*/
  }
  .news__pagination-link:hover{
-  color:black;
+  color:rgb(75, 115, 181);
  }
+ 

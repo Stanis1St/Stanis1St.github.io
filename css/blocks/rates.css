@@ -33,19 +33,39 @@
   }
   
   .rate__logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
    width: 70px;
  height: 70px;
  border-radius: 50%;
- background: url('/img/flower.png') center no-repeat  rgb(75, 115, 181);
- align-content: center;   
+  background:   rgb(75, 115, 181);
+  z-index: 0;
   }
-
+ 
+  .rate__logo-first{
+   
+    background-image:url("/img/spritesheet.png");
+    width: 27px;
+    height: 31px;
+    background-position: -81px -5px;
+    z-index: 1;
+  }
+  
   .rate__logo-second{
-    background: url('/img/star.png') center no-repeat  rgb(75, 115, 181);
+    background-image:url("/img/spritesheet.png");
+    width: 32px;
+    height: 32px;
+    background-position: -284px -5px;
+    z-index: 1;
   }
  
   .rate__logo-third{
- background: url('/img/painter-palette.png') center no-repeat  rgb(75, 115, 181); 
+    background-image:url("/img/spritesheet.png");
+    width: 28px;
+    height: 29px;
+    background-position: -246px -5px;
+    z-index: 1;
   }
   .rate__name{
     margin-top: 30px;

@@ -1,13 +1,11 @@
 .intro{
-    background: url(/img/intro/background.png)no-repeat;
+    background: url(/img/intro/background.png) center center no-repeat;
     -moz-background-size: 100%; /* Firefox 3.6+ */
     -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
     -o-background-size: 100%; /* Opera 9.6+ */
     background-size: cover; /* Современные браузеры */
-    height:100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    
+    
 }
 
 .logo-intro{  
@@ -16,7 +14,12 @@
     align-items: center;
     flex-direction: column;
     margin:auto;
-    animation:bounce 1 1s; 
+   
+}
+.bounce{
+    animation-name:bounce; 
+    animation-duration: 1s;
+    animation-iteration-count: 1;
 }
 .logo-intro__button{ 
     text-align: center;
@@ -54,12 +57,12 @@
         opacity :0 ;
     }
     20%{
-        opacity :0.5 ;
+        
     }
 
    
     53%{
-        opacity :1 ;
+      
     }
     80%,
     to {
@@ -87,6 +90,7 @@
     90% {
       -webkit-transform: translate3d(0, -15px, 0);
       transform: translate3d(0, -15px, 0);
+      opacity :1 ;
     }
   }
 
