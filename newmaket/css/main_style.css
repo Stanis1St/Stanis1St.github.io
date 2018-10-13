@@ -1,20 +1,24 @@
-@import url(/css/layout/font.css);
-@import url(/css/layout/normalize.css);
-@import url(/css/layout/base.css);
-@import url(/css/blocks/header.css);
-@import url(/css/blocks/contacts.css);
-@import url(/css/blocks/aside.css);
-@import url(/css/blocks/img.css);
-@import url(/css/blocks/rates.css);
-@import url(/css/blocks/news-reviews.css);
-@import url(/css/blocks/footer.css);
-@import url(/css/blocks/breadcrumbs.css);
-@import url(/css/blocks/pattern.css);
-@import url(/css/blocks/feedback.css);
-@import url(/css/blocks/team.css);
-@import url(/css/blocks/Partners.css);
-@import url(/css/blocks/greetings.css);
-@import url(/css/blocks/tooltip.css);
+@import url(/newmaket/css/layout/font.css);
+@import url(/newmaket/css/layout/normalize.css);
+@import url(/newmaket/css/layout/base.css);
+@import url(/newmaket/css/blocks/header.css);
+@import url(/newmaket/css/blocks/contacts.css);
+@import url(/newmaket/css/blocks/aside.css);
+@import url(/newmaket/css/blocks/img.css);
+@import url(/newmaket/css/blocks/rates.css);
+@import url(/newmaket/css/blocks/news.css);
+@import url(/newmaket/css/blocks/footer.css);
+@import url(/newmaket/css/blocks/breadcrumbs.css);
+@import url(/newmaket/css/blocks/pattern.css);
+@import url(/newmaket/css/blocks/feedback.css);
+@import url(/newmaket/css/blocks/team.css);
+@import url(/newmaket/css/blocks/Partners.css);
+@import url(/newmaket/css/blocks/greetings.css);
+@import url(/newmaket/css/blocks/tooltip.css);
+@import url(/newmaket/css/blocks/review.css);
+
+@import url(/newmaket/css/blocks/menu.css);
+@import url(/newmaket/css/blocks/socials.css);
 /*@import url(/css/animate.css);
 
 

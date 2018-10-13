@@ -2,8 +2,8 @@
 
     width: 700px;
     margin: 0 auto;
-    margin-top:60px;
-    margin-top:50px;
+    margin-top:40px;
+    margin-left: 24px;
 }
 .title_feedback{
     font-size: 49px;
@@ -13,7 +13,7 @@
     padding: 50px 70px;
   }
   .form__row {
-      margin-top:30px;
+      margin-top:10px;
     display: flex;
     justify-content: space-between;
     margin-bottom: 20px;
@@ -22,6 +22,8 @@
     width: 270px;
   }
   .form__label {
+      font-size: 14px;
+      color: rgb(34, 31, 31);
     display: block;
     padding-bottom: 10px;
   }

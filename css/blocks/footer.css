@@ -1,9 +1,10 @@
 footer{
     margin-top:40px;
-    background-color: rgb(75, 115, 181);
+    background-color:rgb(75, 115, 181);
+
   }
   .footer__row{
-     
+  
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
@@ -23,7 +24,7 @@ footer{
     text-decoration-line: underline;
   }
   .footer__logo{
-   margin-right: 60px;
+  
   }
   .logo{
     display:block;
@@ -33,39 +34,6 @@ footer{
     display: flex;
     flex-direction: column;
   }
-  .social__name{
-    font-size:14px;
-    color: rgb(255, 255, 255);
-    font-weight: bold;
-  }
-  .social__logo{
-    
-  }
-  .social__list{
-    margin-top:7px;
-    margin-right: 10px;
-   display: flex;
-   justify-content: space-around;
-  }
-  .social__item{
-    display:flex;
-    justify-content: center;
-    align-items: center;
-  border-radius: 50%;
-    width: 20px;
-    height: 20px;
-  background-color:#d2def3;
  
-  }
-  .social__link{
-    
-  }
-  /*
-  .social__img{
-   align-items: center;
-  }*/
-  .social__item:hover{
-    background-color:white;
-    transform: scale(1.2);
-  }
+  
   

@@ -3,56 +3,61 @@
     font-weight: bold;
   }
   
-.news{
-    margin-top: 85px;
+.reviews{
+    margin-top: 15px;
   }
-  .news_reviews{
-    margin-top: 20px;
-  }
-  .news__list{
-   margin-top: 45px;
+  
+  .reviews__list{
+   margin-top:20px;
     display:flex;
     flex-direction: column;
   }
-  .news__list_review{
-    margin-top:7px;
+  
+  .reviews__item{
+  margin-top: 23px;
+  margin-bottom: 27px;
   }
-  .news__item{
-   padding:25px 0;
-  }
-  .news__item_review{
-    padding : 30px 0;
-  }
-  .new{
+  .reviews__item{
+    margin-top: 23px;
+    margin-bottom: 27px;
+    }
+    .reviews__item:nth-child(2){
+      margin-bottom: 40px;
+    }
+  .review{
     display:flex;
   }
-  .new__preview{
- margin-right:18px;
+  .review__preview{
+ margin-right:37px;
   }
-  .new-img, .review{ 
+  .review__img{ 
+    
    display:block;
    width: 160px;
    height: 160px;
    border-radius:50%;
    overflow: hidden;
   }
+  .review__img_gray{
+    filter:grayscale(1);
+  }
   .new1, .new2, .new3{
     max-width: 160px;
     max-height: 160px;
   }
- .new__wrape{
+ .review__wrape{
    display:flex;
    flex-direction: column; 
  }
- .new__data{
+ .review__data{
    font-size:14px;
   font-weight: 300;
  }
- .new__name{
+ .review__name{
    margin-top:5px;
    letter-spacing: 1px;
  }
- .new__content{
+ .review__content{
    letter-spacing: -0.2px;
    text-align: left;
   margin-top:11px;
@@ -98,7 +103,7 @@
     
     
   }
-  .news__pagination-item_firstpage .news__pagination-link{
+  .news__pagination-item_firstpage {
     color:white;
   }
 
@@ -123,5 +128,9 @@
    color:black;             /* Страницы пагинации ,ссылки*/
  }
  .news__pagination-link:hover{
-  color:black;
+   color:rgb(75, 115, 181);
+ }
+
+  .news__pagination-item_firstpage:hover .news__pagination-link {
+  color:white;
  }

@@ -21,15 +21,20 @@
      }
 
   .team-member-img{
+    display: block;
+   
     width: 160px;
     height: 160px;  
     border-radius: 50%;
-  
+   
   }
   .team-member__avatar{
     position: relative;
+    
   }
   .team-member__avatar-name{
+    display: block;
+    z-index: 2;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -37,7 +42,8 @@
     font-size: 24px;
     color: #fff;
     font-weight: bold;
-    z-index: 1;
+
+  
   }
   .team-member__avatar::after {
     content: '';
@@ -49,11 +55,13 @@
     position: absolute;
     background-color: rgba(153, 153, 204, 0.5);
     transition: 0.5s;
+    z-index: 1;
   }
-  
-  .team-member__avatar:hover::after {
+
+  .team-member__avatar:hover::after  {
     background-color: transparent;
-  }
+   
+  } 
   .team-member__name{
       margin-top:6%;
       font-size: 18px;

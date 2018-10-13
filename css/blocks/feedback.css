@@ -2,7 +2,6 @@
 
     width: 700px;
     margin: 0 auto;
-    margin-top:60px;
     margin-top:50px;
 }
 .title_feedback{
@@ -22,6 +21,8 @@
     width: 270px;
   }
   .form__label {
+    font-size: 14px;
+      color: rgb(34, 31, 31);
     display: block;
     padding-bottom: 10px;
   }

@@ -1,0 +1,49 @@
+.social{
+    padding: 30px 60px;
+}
+.social__list{
+    display:flex;
+    justify-content: center;
+    padding: 10px 10px;
+}
+.social__name{
+    font-size: 14px;
+    color: rgb(45, 29, 29);
+    font-weight: bold;
+}
+.social__item{
+    
+    width: 30px;
+    height: 30px;
+}
+.social__link{
+    width: 17px; 
+    height: 17px;
+    border-radius: 50%;
+    display: block;
+    background: url('/newmaket/img/spritesheet.png') no-repeat;
+}
+.social__link:hover{
+    transform:scale(1.2);
+}
+.social__link_vk{
+    background-position: -127px -62px; 
+}
+.social__link_facebook{
+   
+    background-position: 0px -5px;
+
+}
+.social__link_google{
+    background-position: -79px 0px;
+
+}
+.social__link_twitter{
+    background-position: -125px -42px;
+
+}
+.social__link_mail{
+    background-position: -78px -20px;
+
+
+}

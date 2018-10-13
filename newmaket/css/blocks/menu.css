@@ -1,0 +1,62 @@
+  .menu__list{
+    display:flex;
+    
+  }
+    .menu__item{
+      margin-left:135px;
+    }
+    .menu__item:first-child{
+       margin-left:30px;
+    }
+   
+  
+    .menu__link{
+      display:flex;
+     color: rgb(75, 115, 181);
+     text-transform:uppercase;
+    font-weight:bold;
+    letter-spacing:2px;
+    font-size: 12px;
+    position: relative;
+   }
+   
+   .menu__link::after,
+   .menu__link::before{
+    content:'';
+    top:-20%;
+    left:-50%;
+    position: absolute;
+    width:25px;
+    height:20px;
+    background:url('/newmaket/img/spritesheet.png') ;
+  
+  }
+  .menu__link_main::after{
+    background-position: -68px;
+  }
+  .menu__link_feed::after{
+    background-position: -21px -5px;
+  }
+  .menu__link_team::after{
+    background-position: -96px -47px;
+
+  }
+  .menu__link_main::before,
+  .menu__link_active.menu__link_main:after{
+    background-position: -42px -43px;
+  }
+.menu__link_feed::before,
+.menu__link_active.menu__link_feed:after{
+  background-position: -51px -5px;
+}
+.menu__link_team::before,
+.menu__link_active.menu__link_team:after{
+  background-position: -5px -75px;
+}
+.menu__link:hover:after{
+  opacity: 0;
+}
+.menu__link_active,
+.menu__link:hover{
+  color:black;
+}

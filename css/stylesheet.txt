@@ -1,0 +1,89 @@
+.sprite {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-fb {
+    width: 6px;
+    height: 13px;
+    background-position: -5px -5px;
+}
+
+.sprite-feed_icon {
+    width: 20px;
+    height: 18px;
+    background-position: -21px -5px;
+}
+
+.sprite-feed_iconblack {
+    width: 20px;
+    height: 18px;
+    background-position: -51px -5px;
+}
+
+.sprite-flower {
+    width: 27px;
+    height: 31px;
+    background-position: -5px -33px;
+}
+
+.sprite-google {
+    width: 15px;
+    height: 9px;
+    background-position: -81px -5px;
+}
+
+.sprite-mail {
+    width: 12px;
+    height: 9px;
+    background-position: -81px -24px;
+}
+
+.sprite-main_icon {
+    width: 17px;
+    height: 18px;
+    background-position: -42px -43px;
+}
+
+.sprite-main_iconblue {
+    width: 17px;
+    height: 18px;
+    background-position: -69px -43px;
+}
+
+.sprite-painter-palette {
+    width: 28px;
+    height: 29px;
+    background-position: -42px -71px;
+}
+
+.sprite-star {
+    width: 32px;
+    height: 32px;
+    background-position: -106px -5px;
+}
+
+.sprite-team_icon {
+    width: 23px;
+    height: 18px;
+    background-position: -96px -47px;
+}
+
+.sprite-team_iconblack {
+    width: 23px;
+    height: 18px;
+    background-position: -5px -75px;
+}
+
+.sprite-twitter {
+    width: 11px;
+    height: 9px;
+    background-position: -129px -47px;
+}
+
+.sprite-vk {
+    width: 12px;
+    height: 7px;
+    background-position: -129px -66px;
+}

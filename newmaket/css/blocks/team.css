@@ -1,6 +1,6 @@
 
 .team{
-    margin-top: 2%;
+    margin-top: 4%;
 }
 .team__list {
    margin-top: 1%; 
@@ -20,12 +20,18 @@
           align-items: center;
      }
 
+
   .team-member-img{
+    display: block;
     width: 160px;
     height: 160px;  
     border-radius: 50%;
-  
+    border-style: solid;
+    border-width: 4px;
+    border-color: #92aad3;
+    border-radius: 50%;
   }
+
   .team-member__avatar{
     position: relative;
   }
@@ -56,7 +62,7 @@
   }
   .team-member__name{
       margin-top:6%;
-      font-size: 18px;
+      font-size: 17px;
       font-weight: bold;
   }
   .team-member__position{
