@@ -20,6 +20,8 @@ footer{
   .authors__loftschool{
     color: rgb(255, 255, 255);
     text-decoration-line: underline;
+    font-weight: bold;
+
   }
   .footer__logo{
    margin-right: 20px;

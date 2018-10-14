@@ -94,42 +94,49 @@
   }
   
   .form__button {
-    
-    padding: 15px 20px;
-    border-radius: 3px;
-    border: none;
-    font-size: 12px;
-    font-weight: bold;
-    text-transform: uppercase;
-    color: #fff;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    background: rgb(75, 115, 181);
-    transition: 1s;
-  }
-  .form__button::after
-  {
-    content: " ";
-    top: 30%;
-    left: 100%;
-    margin-left: 10px;
-    width: 20px;
-    height:20px;
-    background:url(/img/spritesheet.png) ;
-  }
-  .form__button::after{
- 
-    background-position: -192px -5px;
-  }
- 
-  .form__button:hover.form__button::after{
-    background-position: -219px -5px;
-  }
   
-  
-  .form__button:hover {
-    background: #fff;
-    color:rgb(75, 115, 181);
-
-  }
+    position:relative;
+     padding: 15px 45px 15px 20px;
+     border-radius: 3px;
+     border: none;
+     font-size: 12px;
+     font-weight: bold;
+     text-transform: uppercase;
+     color: #fff;
+     cursor: pointer;
+     background: rgb(75, 115, 181);
+     transition: 1s;
+   }
+ 
+   
+   .form__button::after,
+   .form__button::before{
+     position: absolute;
+     content: " ";
+     top: 30%;
+     left: 70%;
+     margin-left: 10px;
+     width: 20px;
+     height:20px;
+     background:url(/img/spritesheet.png) ;
+     transition: 1s;
+ 
+   }
+   .form__button::after{
+   
+     background-position: -192px -5px;
+   }
+   .form__button:hover::after{
+       opacity: 0;
+   }
+   .form__button:before
+   {
+     background-position: -219px -5px;
+   }
+   
+   .form__button:hover {
+     background: #fff;
+     color:rgb(75, 115, 181);
+ 
+   }
+   

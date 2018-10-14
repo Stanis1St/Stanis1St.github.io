@@ -1,7 +1,6 @@
 .pattern {
   margin-top: 10px;
-    width: 92%;
-  
+  margin-right: 20px;
     background-image: url("/newmaket/img/reviews/pattern.png")
   }
   
@@ -12,7 +11,6 @@
     font-size: 18px;
     color: #fff;
     line-height: 1.667;
-    
     text-align: center;
   }
   .pattern__link{
