@@ -24,9 +24,10 @@ footer{
     text-decoration-line: underline;
     font-weight: bold;
   }
-  .footer__logo{
-  
-  }
+  .authors_iam{
+   
+    font-weight: bold;}
+    
   .logo{
     display:block;
   }
