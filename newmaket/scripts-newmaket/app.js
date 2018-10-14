@@ -1,3 +1,4 @@
 window.addEventListener('load', () => {
-  document.querySelector('.logo-intro').classList.add('bounce');
-});
+  document.querySelector('.intro__anim').classList.add('bounce');
+ });
+ 

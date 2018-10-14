@@ -99,9 +99,16 @@
     background:  rgb(75, 115, 181);
     border-radius: 3px; 
   }
+  .news__pagination-link:hover{
+    color:rgb(75, 115, 181);
+   }
   .news__pagination-item_firstpage .news__pagination-link{
     color:white;
   }
+  .news__pagination-item_firstpage:hover .news__pagination-link{
+    color:black;
+  }
+
 
   .news__pagination-prev-next:hover{
     color:rgb(182, 206, 245);
@@ -123,7 +130,5 @@
    font-weight: bold;
    color:black;             /* Страницы пагинации ,ссылки*/
  }
- .news__pagination-link:hover{
-  color:rgb(75, 115, 181);
- }
+
  
