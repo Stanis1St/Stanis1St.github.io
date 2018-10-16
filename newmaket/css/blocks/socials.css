@@ -25,6 +25,7 @@
 }
 .social__link:hover{
     transform:scale(1.2);
+    background-color: #d2def3;;
 }
 .social__link_vk{
     background-position: -410px -0px;  
